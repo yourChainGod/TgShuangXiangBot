@@ -25,7 +25,7 @@ account:
   # 工作模式：polling 或 webhook
   mode: "polling"
   # Telegram Bot Token，从 @BotFather 获取
-  token: "7834787208:AAEby1aO7QYtlySpyQAimUZ-jtwlSADoBiI"
+  token: "12345:xxxxxxx"
   # 管理员的 Telegram ID，可以从 @userinfobot 获取
   owner: 1025878772
   # webhook 模式的回调地址（如果使用 polling 模式可以忽略）
