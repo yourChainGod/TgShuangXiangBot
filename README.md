@@ -22,13 +22,16 @@ bot.go 中包含了自用的欢迎消息和教程说明，需要自行修改。
 
 ```yaml
 account:
-  token: "YOUR_BOT_TOKEN"    # Telegram Bot Token
-  mode: "polling"           # 运行模式：polling 或 webhook
-  endpoint: ""             # Webhook 模式下的回调地址
-  port: 8443               # Webhook 模式下的端口号
-
-admin:
-  id: 123456789           # 管理员的 Telegram ID
+  # 工作模式：polling 或 webhook
+  mode: "polling"
+  # Telegram Bot Token，从 @BotFather 获取
+  token: "7834787208:AAEby1aO7QYtlySpyQAimUZ-jtwlSADoBiI"
+  # 管理员的 Telegram ID，可以从 @userinfobot 获取
+  owner: 1025878772
+  # webhook 模式的回调地址（如果使用 polling 模式可以忽略）
+  endpoint: ""
+  # webhook 模式的端口（如果使用 polling 模式可以忽略）
+  port: 8443
 ```
 
 ## 运行
